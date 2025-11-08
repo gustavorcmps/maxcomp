@@ -1,0 +1,58 @@
+.logo {
+  width: 250px;
+}
+
+h1 {
+  color: #f5874e;
+  font-size: 70px !important;
+}
+
+body,
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+.container span {
+  color: #f5874e;
+  font-style: italic;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+ul.nav {
+  background-color: black;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+a.nav-link {
+  color: white;
+}
+
+.btn {
+  background-color: #ff8a2a !important;
+  border-radius: 50px !important;
+  border-color: #ff8a2a !important;
+}
+
+.escuro {
+  background-color: #212529;
+  color: white;
+}
+
+.escuro .logo {
+  content: url("img/maxcomp-black.png");
+}
+
+.escuro header,
+.escuro footer,
+.escuro body,
+.escuro span,
+.escuro .formulario {
+  background-color: #212529;
+  color: white;
+}

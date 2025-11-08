@@ -2,8 +2,18 @@
   width: 250px;
 }
 
+.col-3 img {
+  height: 150px;
+  margin: 80px;
+}
+
+.carousel-item {
+  max-height: 600px;
+  width: auto;
+}
+
 h1 {
-  color: #f5874e;
+  color: #f5874e !important;
   font-size: 70px !important;
 }
 

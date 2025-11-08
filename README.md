@@ -1,6 +1,6 @@
 # MaxComp Informática
 
-![Logo](img/maxcomp-black.jpeg)
+![Logo](img/maxcomp-black.png)
 
 Site de divulgação da loja de informática MaxComp
 

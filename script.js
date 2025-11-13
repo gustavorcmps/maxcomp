@@ -21,5 +21,5 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 ScrollReveal().reveal("#inicio", { delay: 500 });
-ScrollReveal().reveal("#politicas", { delay: 500 });
+ScrollReveal().reveal("#produtos", { delay: 500 });
 ScrollReveal().reveal("#sobre", { delay: 500 });

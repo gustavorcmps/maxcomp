@@ -3,8 +3,13 @@
 }
 
 .col-3 img {
-  height: 150px;
-  margin: 80px;
+  max-width: 200px;
+  height: auto;
+  margin: 50px;
+}
+
+.col-6 img {
+  object-fit: cover;
 }
 
 .carousel-item {
@@ -15,6 +20,16 @@
 h1 {
   color: #f5874e !important;
   font-size: 70px !important;
+  font-family: "Stack Sans Headline", sans-serif;
+}
+
+h2 {
+  color: #fcc32c !important;
+  font-family: "Stack Sans Headline", sans-serif;
+}
+
+p {
+  font-size: 18px !important;
 }
 
 body,

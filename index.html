@@ -32,15 +32,15 @@
         </div>
         <div>
           <a href="https://wa.link/z62sv4"
-            ><button class="btn btn-primary">
+            ><button class="btn btn-primary" aria-label="WhatsApp">
               <i class="bi bi-whatsapp"></i></button
           ></a>
           <a href="https://www.instagram.com/maxcomp.info/"
-            ><button class="btn btn-primary">
+            ><button class="btn btn-primary" aria-label="Instagram">
               <i class="bi bi-instagram"></i></button
           ></a>
           <a href="https://www.facebook.com/max.comp.3994/"
-            ><button class="btn btn-primary">
+            ><button class="btn btn-primary" aria-label="Facebook">
               <i class="bi bi-facebook"></i></button
           ></a>
         </div>
@@ -55,9 +55,21 @@
           Celulares</span
         >
         <div>
-          <button id="fonte+" class="btn btn-primary">A+</button>
-          <button id="fonte-" class="btn btn-primary">A-</button>
-          <button id="escuro" class="btn btn-primary">
+          <button
+            id="fonte+"
+            class="btn btn-primary"
+            aria-label="Aumenta a fonte"
+          >
+            A+
+          </button>
+          <button
+            id="fonte-"
+            class="btn btn-primary"
+            aria-label="Diminui a fonte"
+          >
+            A-
+          </button>
+          <button id="escuro" class="btn btn-primary" aria-label="Modo Escuro">
             <i class="bi bi-moon-stars-fill"></i>
           </button>
         </div>
@@ -142,6 +154,8 @@
           <img
             src="https://logosmarcas.net/wp-content/uploads/2020/04/Apple-Simbolo.png"
             alt="Apple"
+            class="img-fluid"
+            loading="lazy"
           />
         </div>
         <div class="col-3">
@@ -149,6 +163,7 @@
             src="https://logos-world.net/wp-content/uploads/2020/04/Samsung-Logo.png"
             alt="Samsung"
             class="img-fluid"
+            loading="lazy"
           />
         </div>
         <div class="col-3">
@@ -156,6 +171,7 @@
             src="https://logos-world.net/wp-content/uploads/2022/07/Motorola-Logo.png"
             alt="Motorola"
             class="img-fluid"
+            loading="lazy"
           />
         </div>
         <div class="col-3">
@@ -163,6 +179,7 @@
             src="https://logos-world.net/wp-content/uploads/2020/07/Xiaomi-Logo.png"
             alt="Xiaomi"
             class="img-fluid"
+            loading="lazy"
           />
         </div>
       </div>
@@ -172,6 +189,7 @@
             src="https://logos-world.net/wp-content/uploads/2020/03/AMD-Logo.png"
             alt="AMD"
             class="img-fluid"
+            loading="lazy"
           />
         </div>
         <div class="col-3">
@@ -179,6 +197,7 @@
             src="https://logos-world.net/wp-content/uploads/2020/11/Nvidia-Logo.png"
             alt="NVidia"
             class="img-fluid"
+            loading="lazy"
           />
         </div>
         <div class="col-3">
@@ -186,6 +205,7 @@
             src="https://logos-world.net/wp-content/uploads/2021/09/Intel-Logo.png"
             alt="Intel"
             class="img-fluid"
+            loading="lazy"
           />
         </div>
         <div class="col-3">
@@ -193,6 +213,7 @@
             src="https://logos-world.net/wp-content/uploads/2020/07/Asus-Logo.png"
             alt="Asus"
             class="img-fluid"
+            loading="lazy"
           />
         </div>
       </div>
@@ -306,24 +327,35 @@
 
     <section id="sobre" class="my-5">
       <div
-        class="container-fluid justify-content-center px-0 overflow-hidden mt-5"
+        class="container-fluid justify-content-center px-0 overflow-hidden espacamento"
       >
+        <hr />
         <div class="row align-items-stretch">
+          <div class="col-12 col-md-6 d-flex justify-content-center">
+            <span class="w-100 my-auto"
+              >Visite nossa Loja!<br />Rua Anhumas Nº 35<br />Vila Ema<br />São
+              Paulo - SP<br />CEP: 03284-000</span
+            >
+          </div>
           <div class="col-12 col-md-6 d-flex">
-            Visite nossa Loja!<br />Rua Anhumas Nº 35<br />Vila Ema<br />São
-            Paulo - SP<br />CEP: 03284-000
+            <img
+              src="img/loja.jpeg"
+              alt="Imagem com o console Xbox Series X em um fundo verde por Billy Freeman"
+              class="img-fluid w-100 h-100"
+            />
           </div>
         </div>
       </div>
+      <hr />
 
       <div class="container p-5 d-flex justify-content-center espacamento">
         <div class="col-md-8 col-lg-10 rounded-5 formulario">
-          <!-- Caixa do formulário com 60% de largura -->
           <h2 class="mb-3">Entre em contato</h2>
           <form
             action="https://formsubmit.co/contato.maxcomp@gmail.com"
             method="POST"
           >
+            <input type="hidden" name="_captcha" value="false" />
             <div class="form-group mb-3">
               <label for="nome">Nome</label>
               <input
@@ -362,11 +394,11 @@
                 Enviar mensagem
               </button>
             </div>
-            <input type="hidden" name="_captcha" value="false" />
           </form>
         </div>
       </div>
     </section>
+    <footer>©MaxComp 2025</footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>

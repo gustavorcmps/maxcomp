@@ -1,5 +1,35 @@
+@media (max-width: 992px) {
+  .numero {
+    left: 20px;
+    top: 110px;
+    font-size: 18px;
+  }
+  .endereco {
+    right: 20px;
+    top: 50px;
+    font-size: 14px;
+  }
+}
+
 .logo {
   width: 250px;
+}
+
+.numero {
+  a {
+    color: #f5874e !important;
+  }
+  position: absolute;
+  left: 50px;
+}
+
+.endereco {
+  position: absolute;
+  right: 50px;
+}
+
+.espacamento {
+  margin-top: 150px;
 }
 
 .col-3 img {
@@ -50,11 +80,25 @@ p {
   font-weight: bold;
 }
 
+hr {
+  border: none;
+  height: 2px;
+  background: #ffffff;
+  margin: 40px 0;
+}
+
 ul.nav {
   background-color: black;
   justify-content: space-between;
   padding-left: 100px;
   padding-right: 100px;
+}
+
+#produtos .itens {
+  padding-left: 100px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 a.nav-link {
@@ -65,6 +109,10 @@ a.nav-link {
   background-color: #ff8a2a !important;
   border-radius: 50px !important;
   border-color: #ff8a2a !important;
+}
+
+#produtos {
+  background-color: black !important;
 }
 
 .escuro {
